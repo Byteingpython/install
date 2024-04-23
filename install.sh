@@ -9,7 +9,7 @@ makepkg -si --noconfirm
 
 gh auth login
 
-paru -S github-cli chezmoi zsh zsh-theme-powerlevel10k-git neovim
+paru -S github-cli chezmoi zsh zsh-theme-powerlevel10k-git neovim --noconfirm
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 chezmoi init https://github.com/Byteingpython/dotfiles.git
