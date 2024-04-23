@@ -8,9 +8,6 @@ sudo pacman -S git --noconfirm
 # makepkg -si --noconfirm
 
 paru -S github-cli chezmoi zsh zsh-theme-powerlevel10k-git neovim --noconfirm
-gh auth login -p ssh
-gh auth setup-git
-
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
