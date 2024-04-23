@@ -14,4 +14,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 chezmoi init https://github.com/Byteingpython/dotfiles.git
 chezmoi apply -v
 
-chsh /bin/zsh
+chsh /usr/bin/zsh
