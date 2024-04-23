@@ -9,6 +9,9 @@ sudo pacman -S git --noconfirm
 
 paru -S github-cli chezmoi zsh zsh-theme-powerlevel10k-git neovim --noconfirm
 gh auth login
+gh auth setup-git
+
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 chezmoi init https://github.com/Byteingpython/dotfiles.git
