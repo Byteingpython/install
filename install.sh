@@ -14,7 +14,7 @@ gh auth setup-git
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-chezmoi init https://github.com/Byteingpython/dotfiles.git
+chezmoi init git@github.com:Byteingpython/dotfiles.git
 chezmoi apply -v
 
 chsh /bin/zsh
