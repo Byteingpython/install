@@ -1,5 +1,5 @@
 cd $HOME
-sudo pacman -Syu
+sudo pacman -Syu --noconfirm
 sudo pacman -S git --noconfirm
 
 sudo pacman -S --needed base-devel --noconfirm
